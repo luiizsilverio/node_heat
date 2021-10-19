@@ -11,9 +11,10 @@ class CreateMessageService {
         user: true
       }
     })
+    
+    return message
   }
 
-  return message
 }
 
 export { CreateMessageService }
