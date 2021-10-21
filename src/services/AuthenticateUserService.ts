@@ -63,7 +63,6 @@ class AuthenticateUserService {
       })
     }
 
-    console.log(process.env.JTW_SECRET)
     const token = sign(
       {
         user: {
